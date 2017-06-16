@@ -1,0 +1,91 @@
+
+.headVideo{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:65%;
+}
+  .headVideoVideo{
+    object-fit: fill;
+    width:100%;
+    height:100%;
+  }
+.headText{
+  font-size: 50;
+  font-family: arial;
+  font-weight: lighter;
+  z-index: 11;
+  color:white;
+  /*text-shadow:-1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;*/
+  position: absolute;
+  top:20%;
+  left:32%;
+  width: 100%;
+}
+.headSearch{
+  z-index: 10;
+  position: absolute;
+  top:35%;
+  left:32%;
+  width: 50%;
+}
+  table, td, th, tr{
+    color:#ecf0f1;
+    border-collapse: collapse;
+    text-align: center;
+
+  }
+
+
+  .head{
+    background-color: #00a0ff;
+    position: absolute;
+    left:0;
+    top:64%;
+    height:36%;
+    width:100%;
+
+  }
+  .headImage{
+    height:90%;
+  }
+
+  .selectionRow{
+    table-layout: fixed;
+    position: absolute;
+    left:0;
+    top:100%;
+    height:7.5%;
+    width: 100%;
+    background-color: #e2e8e9;
+    padding: 0;
+  }
+
+  .selectionRowButton{
+    padding:0;
+    width:70%;
+    height:80%
+  }
+
+  .options{
+    table-layout: fixed;
+    position: absolute;
+    left:0;
+    top:107.4%;
+    height:57.5%;
+    width:100%;
+    background-color: #ecf0f1;
+    text-align: center;
+  }
+
+  .optionsButton {
+    width:90%;
+    height:80%;
+    text-align:center;
+  }
+
+  .optionsSearch{
+    width:80%;
+
+  }
