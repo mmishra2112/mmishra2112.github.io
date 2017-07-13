@@ -1,0 +1,57 @@
+<html>
+<head>
+  <title>Submission Form</title>
+  <style>
+  #form{
+    width:100%;
+    height:87%;
+  }
+  body {
+    background-color: #34495e;
+    color:white;
+  }
+  </style>
+</head>
+<body>
+  <script>
+    function chooseScript(){
+      var selectedForm = document.getElementById("selectedForm").value;
+      console.log(selectedForm);
+
+      if (selectedForm.localeCompare('scholarships')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/kTetwJJyDKiwAUhI3";
+      }
+      if (selectedForm.localeCompare('internships')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/D248ZEY3oBjf8Kb92";
+      }
+      if (selectedForm.localeCompare('studyAbroad')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/1kSBj9gmkLiYxAkV2";
+      }
+      if (selectedForm.localeCompare('summerPrograms')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/80CYgwsSMWpcTegu1";
+      }
+      if (selectedForm.localeCompare('collegeAdvising')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/VGsgTy5U0UwraDPk2";
+      }
+      if (selectedForm.localeCompare('flyIns')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/YnJUTK5PT9loFEKe2";
+      }
+      if (selectedForm.localeCompare('awards')==0){
+        document.getElementById("form").src = "https://goo.gl/forms/UWerwnuzL4Cwocgf1";
+      }
+
+    }
+  </script>
+  please select the category you are going to enter. Dont add anything more than exactly the answer as dictated on the google doc. tags must be spelled the same, and are more effective if there are lots per opportunity.<br>
+  <select id="selectedForm">
+    <option value="scholarships">scholarships</option>
+    <option value="internships">internships</option>
+    <option value="studyAbroad">studyAbroad</option>
+    <option value="summerPrograms">summerPrograms</option>
+    <option value="collegeAdvising">collegeAdvising</option>
+    <option value="flyIns">flyIns</option>
+    <option value="awards">awards</option>
+  </select>
+  <button onclick="chooseScript()">choose</button>
+  <br><br>
+  <iframe src="https://google.com" id="form">
